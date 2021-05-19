@@ -1,0 +1,227 @@
+header .a-i{
+    max-width: 62.5%;
+    margin: 0 auto;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 86px;
+}
+header li{
+    margin:0 35px;
+}
+.banner .t-I{
+    text-indent: 25%;
+}
+.banner h2.tea{
+    margin: 12.8% 0 11.5% 0;font-size: 48px;
+}
+.content{
+    max-width: 62.5%;
+    margin: 0 auto;
+    padding: 10.4% 0;
+    line-height: 30px;
+    align-items: flex-start;
+}
+.content .left{
+    width: 57.8%;
+    font-size: 14px;
+    line-height: 30px;
+    margin-right: 2%;
+}
+.content .title, .product .title{
+    margin:1% 0 2.6% 0;
+}
+.content .title img,.product .title img{
+    margin-right: 0.5%;
+}
+.content > h4,.product > h4{
+    font-size: 30px;
+}
+.content .lrght .first{
+    /*width: 12.16%;*/
+    width: 0;
+    margin-top: 5%;
+}
+.content .lrght .first.active{
+    width: 12.16%;
+    right: 0;
+    bottom: 0;
+}
+.content .lrght .sec{
+    width: 0;
+    /*width: 12.83%;*/
+}
+.content .lrght .sec.active{
+    width: 12.83%;
+    right: 0;
+    bottom: 0;
+}
+.content .lrght .th{
+    width: 0;
+    /*width: 12.33%;*/
+    margin-top: -5%;
+}
+.content .lrght .th.active{
+    right: 0;
+    bottom: 0;
+    width: 12.33%;
+}
+.procu {
+    background-color: #F8F8F8;
+}
+.product{
+    max-width: 62.5%;
+    margin: 0 auto;
+    line-height: 30px;
+    padding: 5.2% 0 3.3%;
+}
+.pright{
+    flex-wrap: wrap;
+    line-height: 26px;
+}
+.pright > div{
+    width: 45%;
+    padding: 1.66%;
+    background-color: #fff;
+    border-radius: 5%;
+    margin: 0 3.3% 3.3% 0;
+}
+.pright > div div:last-child{
+    align-self: flex-start;
+    height: 100%;
+}
+.pright > div:nth-child(2n){
+    margin-right: 0;
+}
+.pright .flex div:first-child{
+    width: 44.4%;
+    margin-right: 3.44%;
+}
+.pright .flex p:last-child{
+    text-align: right;
+}
+.pright img{
+    display: block;
+    width:100%;
+}
+.pright > div .flex{
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+.foot{
+    max-width: 62.5%;
+    margin: 0 auto;
+    justify-content: space-between;
+    line-height: 1;
+    padding: 3.9% 0;
+}
+.foot .left{
+    font-size: 26px;
+}
+.foot .left img{
+    display: block;
+    width: 40.95%;
+    margin: 0 auto 17.06%;
+}
+.foot .right{
+    font-size: 12px;
+    color: #9B9B9B;
+}
+.foot .right img{
+    width: 15px;
+    height: 15px;
+    margin: 0 5.5% 8% 10.2%;
+}
+.foot .right i{
+    margin-bottom: 7.5%;
+    display: block;
+}
+.foot .right div:first-child{
+    font-size: 14px;
+    color: #fff;
+}
+.foot p{
+    white-space: nowrap;
+}
+.conyy{
+    justify-content: center;
+    font-size: 16px;
+    line-height: 1;
+    color: #fff;
+    text-align: left;
+}
+.conyy h5{
+    font-size: 24px;
+}
+.conyy > div{
+    margin-right:6.8% ;
+}
+.conyy > div:last-child{
+    margin-right: 0;
+}
+.conyy > div{
+    width: 15.5%;
+}
+.conyy img{
+    display: block;
+    width: 46.76%;
+}
+.conyy span{
+    font-size: 14px;
+    display: block;
+    margin: 7.1% 0 10%;
+}
+.banner .conyy div p{
+    line-height: 24px;
+    font-size: 16px;
+    margin-bottom: 6%;
+}
+.lassss{
+    display: none;
+}
+@media screen and (max-width: 1300px){
+    header .a-i{
+        max-width: 80%;
+        justify-content: space-between;
+        font-size: 14px;
+        line-height: 60px;
+    }
+    header li{
+        margin: 0 15px;
+    }
+    .pright{
+        line-height: 20px;
+    }
+    .banner h2{
+        font-size: 40px;
+    }
+    .banner p:nth-child(2){
+        font-size: 19px;
+    }
+    .banner p:last-child{
+        font-size: 12px;
+    }
+    .content,.product,.foot{
+        max-width: 80%;
+    }
+    .foot .left{
+        font-size: 22px;
+    }
+    .conyy{
+        font-size: 14px;
+    }
+    .conyy > div{
+        width: 25%;
+    }
+    .conyy h5{
+        font-size: 18px;
+    }
+    .conyy span{
+        font-size: 10px;
+    }
+    .banner .conyy div p{
+        line-height: 20px;
+        font-size: 12px;
+    }
+}
+
